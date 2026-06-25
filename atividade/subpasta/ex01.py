@@ -1,9 +1,9 @@
 def nota_aluno(nota1,nota2):
     media = (nota1+ nota2)/2
     print(media)
-    if media > 6:
+    if media >= 6:
         print("Aprovado")
-    elif 6 > media > 4:
+    elif 6 > media >= 4:
         print("Verificação Suplementar")
     else:
         print("Reprovado")
