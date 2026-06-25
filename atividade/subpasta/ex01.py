@@ -9,7 +9,7 @@ def nota_aluno(nota1,nota2):
         print("Reprovado")
     
 
-nome = input("Insira a nota do aluno: ")
+nome = input("Insira o nome do aluno: ")
 notaA = float(input(f"Insira a primeira nota de {nome}: "))
 notaB = float(input(f"Insira a segunda nota de {nome}: "))
 
